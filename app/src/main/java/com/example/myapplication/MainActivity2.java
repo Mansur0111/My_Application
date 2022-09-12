@@ -19,6 +19,9 @@ public class MainActivity2 extends AppCompatActivity {
 EditText editText1;
 EditText editText2;
 Button button;
+String mansur="";
+String mansur2="";
+int a=7;
 ProgressBar progressBar;
 
 FirebaseAuth firebaseAuth;

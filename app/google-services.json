@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818558517900",
+    "project_id": "mansur-b6e7f",
+    "storage_bucket": "mansur-b6e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818558517900:android:e1448fa0d09c2ae86231a9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818558517900-b9tknad3tau1hla5et5br2i1g1535dqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgNIPqUwNjL21nPC-B58cUGBo0uq5Yiys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818558517900-b9tknad3tau1hla5et5br2i1g1535dqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

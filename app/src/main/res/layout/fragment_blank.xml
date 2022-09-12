@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_baseline_chevron_left_24"></ImageView>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_baseline_circle_notifications_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageview1"
+            android:layout_marginRight="45dp"></ImageView>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_baseline_clear_all_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imageview1"></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taxi 12 68"
+        android:textColor="#FF3D00"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="65dp"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icon1"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagedamas"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/damas"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/imagedamas"
+                android:text="Damas"
+                android:textSize="20dp"></TextView>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="27dp" ></Switch>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagelassetiy"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lasettiy"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/imagelassetiy"
+                android:text="Lasetti"
+                android:textSize="20dp"></TextView>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="27dp" ></Switch>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagespark"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spark"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/imagespark"
+                android:text="spark"
+                android:textSize="20dp"></TextView>
+
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="27dp" ></Switch>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageNexia"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nexiya"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/imageNexia"
+                android:text="Nexia"
+                android:textSize="20dp"></TextView>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="27dp" ></Switch>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagecobolt"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/black"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cobalt"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/imagecobolt"
+                android:text="Cobolt"
+                android:textSize="20dp"></TextView>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="27dp" ></Switch>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/icon1"
+            android:text="Buyrtma berish"></Button>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
